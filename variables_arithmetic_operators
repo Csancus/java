@@ -1,0 +1,44 @@
+package org.meicode.helloworld;
+
+public class Hello {
+    public static void main(String[] args) {
+//        System.out.println("hello");
+//        System.out.print("hello");
+
+        //comment
+        //TODO Do something
+
+//        int number = 5;
+//        System.out.println(number);
+//
+//        long myLong = 5;
+//        System.out.println(myLong);
+//
+//        double myDouble = 4.5;
+//        System.out.println(myDouble);
+//
+//        float myFloat = (float) 4.5;
+//        System.out.println(myFloat);
+//
+//        char myChar = 'M';
+//        System.out.println(myChar);
+//        char myChar2 = '\u00A9';
+//        System.out.println(myChar2);
+//
+//        String name = "Csanad";
+//        System.out.println(name);
+//
+//        boolean myBoolean = true;
+//        System.out.println(myBoolean);
+
+        int a = 6;
+        int b = 2;
+        int answer = a + b;             //-, *, /, %
+        System.out.println(answer);
+
+        String fn = "Emma";
+        String ln = "Watson";
+        String fullName = fn + ln;
+        System.out.println(fullName);
+    }
+}
